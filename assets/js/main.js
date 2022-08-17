@@ -563,4 +563,3 @@
   new PureCounter();
 
 })()
-
