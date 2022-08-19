@@ -1,0 +1,132 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Unfold - Personal Resume & CV Template
+    Template URI: site.com
+    Description: Unfold Personal Resume & CV Template
+    Author: Uideck
+    Author URI: https://uideck.com/
+    Support: https://uideck.com/support/
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+    1.COMMON
+	2.HEADER
+    3.ABOUT
+    4.SERVICES
+    4.CALL TO ACTION
+    5.WORK
+    6.PRICING
+    7.BLOG
+    8.CONTACT
+    9.FOOTER
+    10.PAGE BANNER
+    10.SINGLE BLOG PAGE
+
+-----------------------------------------------------------------------------------*/
+/*===========================
+    1. COMMON css 
+===========================*/
+
+a {
+  display: inline-block; }
+
+
+/*===========================
+       9.FOOTER css 
+===========================*/
+.footer-widget {
+  background-color: #152136; }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .footer-widget {
+      padding-top: 100px;
+      padding-bottom: 100px; } }
+  @media (max-width: 767px) {
+    .footer-widget {
+      padding-top: 80px;
+      padding-bottom: 80px; } }
+
+.footer-content img {
+  padding: 30px;
+  filter: brightness(120%);
+  filter: contrast(120px);
+  filter: drop-shadow(10px 10px 10px black);
+}
+
+.footer-content h2 {
+  color: #fff;
+  margin-top: 35px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  font-size: xx-large; }
+.footer-content ul {
+  margin-top: 35px; }
+  .footer-content ul li {
+    display: inline-block;
+    margin: 0 14px; }
+    @media (max-width: 767px) {
+      .footer-content ul li {
+        margin: 0 7px; } }
+    .footer-content ul li a {
+      font-size: 30px;
+      width: 74px;
+      height: 70px;
+      line-height: 74px;
+      text-align: center;
+      border-radius: 50%;
+      color: #bebebe;
+      background-color: #1c2940;
+      -webkit-transition: all 0.3s ease-out 0s;
+      -moz-transition: all 0.3s ease-out 0s;
+      -ms-transition: all 0.3s ease-out 0s;
+      -o-transition: all 0.3s ease-out 0s;
+      transition: all 0.3s ease-out 0s; }
+      @media (max-width: 767px) {
+        .footer-content ul li a {
+          width: 52px;
+          height: 50px;
+          line-height: 50px;
+          font-size: 20px; } }
+      .footer-content ul li a:hover {
+        background-color: #754ef9;
+        color: #fff; }
+
+.footer-copyright {
+  background-color: #1c2940; }
+  .footer-copyright .copyright-text p {
+    color: #fff; }
+
+
+.footer-copyright .copyright-text a {
+    color: gold;
+    text-decoration: underline; }
+
+.back-to-top {
+  font-size: 20px;
+  color: #fff;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  line-height: 46px;
+  border-radius: 50%;
+  border: 2px solid #586376;
+  background-color: #152136;
+  text-align: center;
+  z-index: 99;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  display: none; }
+  .back-to-top:hover {
+    color: #fff;
+    background-color: #754ef9;
+    border-color: #754ef9; }
+
+/*# sourceMappingURL=style.css.map */
