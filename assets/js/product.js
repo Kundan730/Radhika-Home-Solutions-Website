@@ -1,6 +1,6 @@
 /**
-* Template Name: Regna - v4.8.1
-* Template URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
+* Template Name: Day - v4.8.0
+* Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
@@ -26,7 +26,7 @@
     let selectEl = select(el, all)
     if (selectEl) {
       if (all) {
-        selectEl.forEach(e => e.addEvetListener(type, listener))
+        selectEl.forEach(e => e.addEventListener(type, listener))
       } else {
         selectEl.addEventListener(type, listener)
       }
@@ -48,7 +48,7 @@
     let offset = header.offsetHeight
 
     if (!header.classList.contains('header-scrolled')) {
-      offset -= 20
+      offset -= 16
     }
 
     let elementPos = select(el).offsetTop
@@ -65,8 +65,7 @@
     let portfolioContainer = select('.portfolio-container');
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.portfolio-item',
-        layoutMode: 'fitRows'
+        itemSelector: '.portfolio-item'
       });
 
       let portfolioFilters = select('#portfolio-flters li', true);
