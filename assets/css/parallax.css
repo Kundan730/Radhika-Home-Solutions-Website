@@ -12,13 +12,61 @@ html, body{
   overflow: hidden;
   font-size: 16px;
 }
-.block.center{
-  position: relative;
-  display: block;
-  text-align: center;
-  margin: 0;
-  top: 50%;
-  transform: translateY(-50%);
+
+
+/*--------------------------------------------------------------
+# Responsive
+--------------------------------------------------------------*/
+@media (min-width: 1920px) {
+  .center video {
+    display: block;
+    margin: 0 auto;
+    width: 65%;
+  }
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) {
+  .center video {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+  }
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .center video {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+  }
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+  .center video {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .center video {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .center video {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
 }
 
 .img-parallax {
