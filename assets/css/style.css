@@ -46,17 +46,16 @@ h6 {
 }
 
 /* Prelaoder */
-#preloader {
+div#preloader {
   position: fixed;
   left: 0;
   top: 0;
-  z-index: 999;
+  z-index: 99999;
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #fff url("../img/preloader.svg") no-repeat center center;
+  background: #fff url("/assets/img/House\ loading.gif") no-repeat center center;
 }
-
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -97,7 +96,7 @@ h6 {
   display: table;
   width: 100%;
   height: 100vh;
-  background: url(/house-1867187_1920.jpg) top center;
+  background: url(/assets/img/cta-bg.jpg) top center;
   background-size: cover;
 }
 
@@ -1104,17 +1103,6 @@ button[type=submit] {
   box-shadow: none !important;
 }
 
-div#preloader {
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 99999;
-  width: 100%;
-  height: 100%;
-  overflow: visible;
-  background: #fff url("../img/preloader.gif") no-repeat center center;
-}
-
 ::-moz-selection {
   background: #3EC1D5;
   text-shadow: none;
@@ -1762,70 +1750,4 @@ div#preloader {
 #footer .footer-top {
   padding: 60px 0 30px 0;
   background: #fff;
-}
-
-
-/*--------------------------------------------------------------
-# Preloader
---------------------------------------------------------------*/
-#preloader {
-  position: fixed;
-  inset: 0;
-  z-index: 9999;
-  overflow: hidden;
-  background: #fff;
-  transition: all 0.6s ease-out;
-  width: 100%;
-  height: 100vh;
-}
-
-#preloader:before,
-#preloader:after {
-  content: "";
-  position: absolute;
-  border: 4px solid var(--color-primary);
-  border-radius: 50%;
-  -webkit-animation: animate-preloader 2s cubic-bezier(0, 0.2, 0.8, 1) infinite;
-  animation: animate-preloader 2s cubic-bezier(0, 0.2, 0.8, 1) infinite;
-}
-
-#preloader:after {
-  -webkit-animation-delay: -0.5s;
-  animation-delay: -0.5s;
-}
-
-@-webkit-keyframes animate-preloader {
-  0% {
-    width: 10px;
-    height: 10px;
-    top: calc(50% - 5px);
-    left: calc(50% - 5px);
-    opacity: 1;
-  }
-
-  100% {
-    width: 72px;
-    height: 72px;
-    top: calc(50% - 36px);
-    left: calc(50% - 36px);
-    opacity: 0;
-  }
-}
-
-@keyframes animate-preloader {
-  0% {
-    width: 10px;
-    height: 10px;
-    top: calc(50% - 5px);
-    left: calc(50% - 5px);
-    opacity: 1;
-  }
-
-  100% {
-    width: 72px;
-    height: 72px;
-    top: calc(50% - 36px);
-    left: calc(50% - 36px);
-    opacity: 0;
-  }
 }
