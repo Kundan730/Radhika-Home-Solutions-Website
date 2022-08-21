@@ -41,34 +41,6 @@
 				copyrightYear: $(".copyright-year"),
 				buttonWinona: $('.button-winona'),
 			};
-
-	// Initialize scripts that require a loaded page
-	$window.on('load', function () {
-		// Page loader & Page transition
-		if (plugins.preloader.length && !isNoviBuilder) {
-			pageTransition({
-				target: document.querySelector('.page'),
-				delay: 0,
-				duration: pageTransitionAnimationDuration,
-				classActive: 'animated',
-				conditions: function (event, link) {
-					return !/(\#|callto:|tel:|mailto:|:\/\/)/.test(link)
-							&& !event.currentTarget.hasAttribute('data-lightgallery')
-							&& event.currentTarget.getAttribute('href') !== 'javascript:void(0);';
-				},
-				onTransitionStart: function (options) {
-					setTimeout(function () {
-						plugins.preloader.removeClass('loaded');
-					}, options.duration * .75);
-				},
-				onReady: function () {
-					plugins.preloader.addClass('loaded');
-					windowReady = true;
-				}
-			});
-		}
-		
-	});
 }());
 
 /**
