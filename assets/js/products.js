@@ -26,7 +26,7 @@
     let selectEl = select(el, all)
     if (selectEl) {
       if (all) {
-        selectEl.forEach(e => e.addEvetListener(type, listener))
+        selectEl.forEach(e => e.addEventListener(type, listener))
       } else {
         selectEl.addEventListener(type, listener)
       }
