@@ -1592,7 +1592,7 @@ button[type=submit] {
 
 .team .member .member-info-content {
   position: absolute;
-  left: 50px;
+  left: 0;
   right: 0;
   bottom: 0;
   transition: bottom 0.4s;
@@ -1610,33 +1610,6 @@ button[type=submit] {
   display: block;
   font-size: 13px;
   color: #fff;
-}
-
-.team .member .social {
-  position: absolute;
-  left: -50px;
-  top: 0;
-  bottom: 0;
-  width: 50px;
-  transition: left ease-in-out 0.3s;
-  background: rgba(78, 64, 57, 0.6);
-  text-align: center;
-}
-
-.team .member .social a {
-  transition: color 0.3s;
-  display: block;
-  color: #fff;
-  margin-top: 15px;
-}
-
-.team .member .social a:hover {
-  color: #eb5d1e;
-}
-
-.team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
 }
 
 .team .member:hover .member-info {
@@ -1668,7 +1641,7 @@ button[type=submit] {
 }
 
 .clients .clients-slider .swiper-pagination {
-  margin-top: 20px;
+  margin-top: 70px;
   position: relative;
 }
 
