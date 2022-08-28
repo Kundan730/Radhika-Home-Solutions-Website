@@ -131,7 +131,31 @@ div#preloader {
   background-size: cover;
 }
 
+@media (min-width: 1920px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
 @media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (min-width: 768px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (min-width: 480px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (min-width: 320px) {
   #hero {
     background-attachment: fixed;
   }
@@ -1632,7 +1656,7 @@ button[type=submit] {
 # Clients
 --------------------------------------------------------------*/
 .clients .clients-slider .swiper-slide img {
-  opacity: 0.5;
+  opacity: 0.7;
   transition: 0.3s;
 }
 

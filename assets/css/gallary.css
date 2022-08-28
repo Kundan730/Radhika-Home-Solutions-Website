@@ -235,7 +235,8 @@ h6 {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--color-primary);
+  background-color: darkblue;
+  /* background-color: var(--color-primary); */
 }
 
 /*--------------------------------------------------------------
