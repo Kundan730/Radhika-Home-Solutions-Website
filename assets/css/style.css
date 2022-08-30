@@ -179,6 +179,7 @@ div#preloader {
 }
 
 #hero h1 {
+  font-family: 'Bad Script', cursive;
   margin: 30px 14px 30px 14px;
   padding: 30px;
   font-weight: 700;
@@ -1628,7 +1629,6 @@ button[type=submit] {
   font-size: 18px;
   color: #fff;
 }
-
 .team .member .member-info-content span {
   font-style: italic;
   display: block;
