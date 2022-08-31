@@ -179,6 +179,7 @@ div#preloader {
 }
 
 #hero h1 {
+  font-family: cursive;
   margin: 30px 14px 30px 14px;
   padding: 30px;
   font-weight: 700;

@@ -666,60 +666,10 @@ padding:.5em;
 background:#D2D0D0;
 text-align:center;
 }
-.history-left h2{
+.history-left h6{
   font-size: 1.7em;
   color: #999;
   margin: 0 auto;
   line-height: 1.7em;
   font-family: cursive;
-}
-
-@media (min-width: 1920px) {
-  .history-left h2 {
-    font-size: 1.7em;
-    color: #999;
-    margin: 0 auto;
-    line-height: 1.7em;
-    font-family: cursive;
-  }
-}
-
-@media (min-width: 1024px) {
-  .history-left h2 {
-    font-size: 1.7em;
-    color: #999;
-    margin: 0 auto;
-    line-height: 1.7em;
-    font-family: cursive;
-  }
-}
-
-@media (min-width: 768px) {
-  .history-left h2 {
-    font-size: 1.7em;
-    color: #999;
-    margin: 0 auto;
-    line-height: 1.7em;
-    font-family: cursive;
-  }
-}
-
-@media (min-width: 480px) {
-  .history-left h2 {
-    font-size: 1.7em;
-    color: #999;
-    margin: 0 auto;
-    line-height: 1.7em;
-    font-family: cursive;
-  }
-}
-
-@media (min-width: 320px) {
-  .history-left h2 {
-    font-size: 1.7em;
-    color: #999;
-    margin: 0 auto;
-    line-height: 1.7em;
-    font-family: cursive;
-  }
 }
