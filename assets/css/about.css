@@ -673,13 +673,53 @@ text-align:center;
   line-height: 1.7em;
   font-family: cursive;
 }
-/*-- //about ---*/
-#hero h1 {
-  font-family: 'Bad Script', cursive;
-  margin: 30px 14px 30px 14px;
-  padding: 30px;
-  font-weight: 700;
-  line-height: 48px;
-  text-transform: capitalize;
-  color: wheat;
+
+@media (min-width: 1920px) {
+  .history-left h2 {
+    font-size: 1.7em;
+    color: #999;
+    margin: 0 auto;
+    line-height: 1.7em;
+    font-family: cursive;
+  }
+}
+
+@media (min-width: 1024px) {
+  .history-left h2 {
+    font-size: 1.7em;
+    color: #999;
+    margin: 0 auto;
+    line-height: 1.7em;
+    font-family: cursive;
+  }
+}
+
+@media (min-width: 768px) {
+  .history-left h2 {
+    font-size: 1.7em;
+    color: #999;
+    margin: 0 auto;
+    line-height: 1.7em;
+    font-family: cursive;
+  }
+}
+
+@media (min-width: 480px) {
+  .history-left h2 {
+    font-size: 1.7em;
+    color: #999;
+    margin: 0 auto;
+    line-height: 1.7em;
+    font-family: cursive;
+  }
+}
+
+@media (min-width: 320px) {
+  .history-left h2 {
+    font-size: 1.7em;
+    color: #999;
+    margin: 0 auto;
+    line-height: 1.7em;
+    font-family: cursive;
+  }
 }
