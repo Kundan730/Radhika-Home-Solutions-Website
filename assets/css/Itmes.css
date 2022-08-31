@@ -248,17 +248,6 @@ div#preloader {
 	color: #fff;
 }
 
-#hero .btn-services {
-  border: 2px solid #fff;
-  color: #fff;
-	text-decoration: none;
-}
-
-#hero .btn-services:hover {
-  background:chocolate;
-  border: 2px solid #03C4EB;
-}
-
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/

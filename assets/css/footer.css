@@ -1,32 +1,3 @@
-/*-----------------------------------------------------------------------------------
-
-    Template Name: Unfold - Personal Resume & CV Template
-    Template URI: site.com
-    Description: Unfold Personal Resume & CV Template
-    Author: Uideck
-    Author URI: https://uideck.com/
-    Support: https://uideck.com/support/
-    Version: 1.0
-
------------------------------------------------------------------------------------
-
-    CSS INDEX
-    ===================
-
-    1.COMMON
-	2.HEADER
-    3.ABOUT
-    4.SERVICES
-    4.CALL TO ACTION
-    5.WORK
-    6.PRICING
-    7.BLOG
-    8.CONTACT
-    9.FOOTER
-    10.PAGE BANNER
-    10.SINGLE BLOG PAGE
-
------------------------------------------------------------------------------------*/
 /*===========================
     1. COMMON css 
 ===========================*/
@@ -36,7 +7,7 @@ a {
 
 
 /*===========================
-       9.FOOTER css 
+    9.FOOTER css 
 ===========================*/
 .footer-widget {
   background-color: #152136; }
